@@ -91,4 +91,3 @@ The full written report (following the lecturer's guideline) is provided here: `
 numpy==1.23.3
 ```
 
-Enjoy exploring and presenting your JSSP solution with ACO!
