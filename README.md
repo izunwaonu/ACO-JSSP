@@ -78,7 +78,7 @@ python -m src.main --data data/FT06.txt --ants 20 --iters 100 --alpha 1.0 --beta
    * **File**: Check `results/solution_output.txt` for detailed output (`Job`, `Op#`, `Machine`, `Start`, `End`).
 
 ## Report
-The full written report (following the lecturer's guideline) is provided here: `Advanced_Algorithm___Ant_Colony_Algorithms_and_Applications__Group_3.pdf`
+The full written report (following the lecturer's guideline) is provided here: `Ant_Colony_Algorithms_and_Applications__Group_3.pdf
 
 ## Requirements
 ```
