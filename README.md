@@ -64,13 +64,8 @@ ACO-JSSP/
 
 4. **Run the ACO algorithm**
    ```bash
-   python src/main.py \
-     --data data/FT06.txt \
-     --ants 20 \
-     --iters 100 \
-     --alpha 1.0 \
-     --beta 2.0 \
-     --rho 0.5
+  python -m src.main --data data/FT06.txt --ants 20 --iters 100 --alpha 1.0 --beta 2.0 --rho 0.5
+
    ```
    * `--data` : path to the dataset file
    * `--ants` : number of ants
@@ -88,6 +83,6 @@ The full written report (following the lecturer's guideline) is provided here: `
 
 ## Requirements
 ```
-numpy==1.23.3
+numpy>=1.26.0
 ```
 
