@@ -63,9 +63,9 @@ ACO-JSSP/
    This will fetch standard JSSP instances (e.g., `FT06.txt`) into `data/`.
 
 4. **Run the ACO algorithm**
-   ```bash
-  python -m src.main --data data/FT06.txt --ants 20 --iters 100 --alpha 1.0 --beta 2.0 --rho 0.5
-   ```
+  ```bash
+python -m src.main --data data/FT06.txt --ants 20 --iters 100 --alpha 1.0 --beta 2.0 --rho 0.5
+```
    * `--data` : path to the dataset file
    * `--ants` : number of ants
    * `--iters`: number of iterations
